@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "railsc/local/db/time/version"
+require "railsc/local/timezone/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "railsc-local-db-time"
-  spec.version       = Railsc::Local::Db::Time::VERSION
+  spec.name          = "railsc-local-timezone"
+  spec.version       = Railsc::Local::Timezone::VERSION
   spec.authors       = ["nekomaho"]
   spec.email         = ["nekosatoru@gmail.com"]
 
   spec.summary       = %q{Display local time when using attribute_for_inspect}
   spec.description   = %q{Display local time when using attribute_for_inspect}
-  spec.homepage      = "https://github.com/nekomaho/railsc-local-db-time"
+  spec.homepage      = "https://github.com/nekomaho/railsc-local-timezone"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

@@ -1,5 +1,5 @@
-# Rails Local DB Time
-rails local db time is a gem that makes the display of Date and Time in railc localized.
+# Rails Local Timezone
+rails local local timezone is a gem that makes the display of Date and Time in railsc localized.
 
 On railsc, the UTC value is displayed by default when displaying the database Date and Time. This gem changes the Date and Time display to a localized version set by `config.time_zone`.
 
@@ -29,7 +29,7 @@ irb(main):001:0> User.first
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'railsc-local-db-time'
+gem 'railsc-local-timezone'
 ```
 
 And then execute:
@@ -38,7 +38,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install railsc-local-db-time
+    $ gem install railsc-local-timezone
 
 ## Development
 
@@ -48,7 +48,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/railsc-local-db-time. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/nekomaho/railsc-local-timezone. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -56,4 +56,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Railsc::Local::Db::Time project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/railsc-local-db-time/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Railsc::Local::Timezone project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/nekomaho/railsc-local-timezone/blob/master/CODE_OF_CONDUCT.md).

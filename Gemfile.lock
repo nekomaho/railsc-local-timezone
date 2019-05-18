@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    railsc-local-db-time (0.1.0)
-      rails (>= 5.1.2)
+    railsc-local-timezone (0.1.0)
+      rails (>= 5.2.3)
 
 GEM
   remote: https://rubygems.org/
@@ -134,7 +134,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
-  railsc-local-db-time!
+  railsc-local-timezone!
   rake
   rspec
 

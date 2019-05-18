@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "railsc/local/db/time"
+require "railsc/local/timezone"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
